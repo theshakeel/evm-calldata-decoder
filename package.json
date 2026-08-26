@@ -1,0 +1,38 @@
+{
+  "name": "evm-calldata-decoder",
+  "version": "1.0.0",
+  "description": "Decode and encode EVM transaction calldata from human-readable function signatures — library + CLI. Selector computation, decode-with-verification, tuple/array support.",
+  "type": "module",
+  "main": "src/index.js",
+  "bin": {
+    "calldata": "bin/calldata.js"
+  },
+  "files": [
+    "src",
+    "bin"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "keywords": [
+    "ethereum",
+    "evm",
+    "abi",
+    "calldata",
+    "decoder",
+    "encoder",
+    "function-selector",
+    "web3",
+    "ethers"
+  ],
+  "author": "theshakeel",
+  "license": "MIT",
+  "homepage": "https://solvebar.com/tools/abi-decoder",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/theshakeel/evm-calldata-decoder.git"
+  },
+  "dependencies": {
+    "ethers": "^6.13.0"
+  }
+}
